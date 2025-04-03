@@ -33,6 +33,7 @@ export const getProductById = (req, res) => {
 // Crear un nuevo producto
 export const createProduct = (req, res) => {
   const products = readData();
+  req.body.id ? delete req.body.id : null;
   const newProduct = { id: products.length + 1, ...req.body };
   
   products.push(newProduct);

@@ -13,5 +13,30 @@
     "id": 3,
     "name": "Teclado",
     "price": 80
+  },
+  {
+    "id": 4,
+    "name": "helicóptero",
+    "price": 30000
+  },
+  {
+    "id": 5,
+    "name": "coche",
+    "price": 2000
+  },
+  {
+    "id": 6,
+    "name": "yate",
+    "price": 15000
+  },
+  {
+    "id": 7,
+    "name": "Borrocoptero",
+    "price": 44
+  },
+  {
+    "id": 8,
+    "name": "coche",
+    "price": 2000
   }
 ]
